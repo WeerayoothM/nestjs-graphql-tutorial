@@ -1,1 +1,1 @@
-# nestjs-tutorial
+# nestjs-graphql-tutorial
