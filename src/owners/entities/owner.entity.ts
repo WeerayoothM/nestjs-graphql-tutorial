@@ -13,6 +13,14 @@ export class Owner {
   @Field()
   name: string;
 
+  @Column()
+  @Field()
+  email: string;
+
+  @Column()
+  @Field()
+  password: string;
+
   @OneToMany(() => Pet, (pet) => pet.owner)
   @Field((type) => [Pet], { nullable: true })
   pets?: Pet[];
